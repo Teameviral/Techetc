@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="chess-style.css">
+    <title>Chess</title>
+</head>
+<body>
+    <div class="loader">
+        
+        <div class="clogo">
+            <img src="../3_chess/college-logo.0d208ba7.png">
+        </div>
+    </div>
+    
+    <header>
+        <h2><a href="../index.html">TECHETC</a></h2>
+    </header>
+    <section class="box">
+        <video src="Video.mp4" autoplay muted loop class="bgvid"></video>
+        <h1 class="texteffect">CHESS</h1>
+        <!-- <h3>Will be Held on (Date) at (time)</h3> -->
+    </section>
+
+    <section class="home1">
+        <div class="home1-txt">
+            <h2 class="about">About Chess</h2>
+            <p>Chess is a board game between two players. It is sometimes called international chess or Western chess to distinguish it from related games. The rules of chess as we know them today emerged in Europe at the end of the 15th century, with standardization and universal acceptance by the end of the 19th century. Today, chess is one of the world's most popular games, played by millions of people worldwide.</p>
+            <h3>Event Details:</h3>
+            <p> Players should maintain a friendly environment. <br>
+                The time control will be (15+10) [15 minutes for both the players with an increment of 10 seconds for each move]. <br>
+                Total number of rounds will be 7 [This can also be changed, depends upon the situation]. <br>
+                Walkover time is 7 minutes.</p>
+            <br>
+            <h3>Rules:</h3>
+            <p>1. Arbiter's decision will be final. <br>
+                2. Touch and Move must be followed. <br>
+                3. Players should maintain a friendly environment. <br>
+                4. First illegal move will be a warning, and second illegal move will cause a loss for the player. <br>
+                5. All players must install a chess clock app, 👉<a href="https://play.google.com/store/apps/details?id=com.chess.clock">https://play.google.com/store/apps/details?id=com.chess.clock </a>  <br>
+                6. Players have to keep their phone in airplane mode/do not disturb mode, any type of disturbance [phone call, message] will be the cause of loss. <br>
+                7. Players can make a draw with their mutual understanding. <br>
+                8. The time control will be (15+10) [15 minutes for both the players with an increment of 10 seconds for each move]. <br>
+                9. Total number of rounds will be 7 [This can also be changed, depends upon the situation]. <br>
+                10. Walkover time is 7 minutes. <br>
+                11. Win,draw and loss will be count as 1,½ and 0 point respectively.</p>
+            <br>
+            <h3>Team Details:</h3>
+            <p>Chess is an Individual Event. </p>
+            <br>
+            <h3>Eligibility:</h3>
+            <p>All Participants should have proper College ID card on them, and should be able to produce the same in original when asked for verification, failing which they will not be allowed to participate. Each participant should be a student pursuing some field of study in college/university.</p>
+            <br>
+            <h3>Registration Fees:</h3>
+            <p>The one-time registration fee for each candidate is Rs.100/- . <br> The entry fee for the Chess event is Rs.20/- only. </p>
+            <br>
+            <h3>Co-ordinators:</h3>
+            <p>Sudeshna Sarkar (+91 93300 91325) <br> Kaushik Biswas (+91 81166 05155) <br> Soumya Sarkar (+91 82508 07416)<br>Tanushree Saha (+91 86971 89921)
+            </p>
+            <br>
+        </div>
+    </section>
+
+    <script>
+        window.addEventListener("load", () => {
+            const loader = document.querySelector(".loader");
+
+            loader.classList.add("loader-hidden");
+            loader.addEventListener("transitionend", () => {
+            document.body.removeChild("loader");
+            })
+        })
+    </script>
+    
+</body>
+</html>

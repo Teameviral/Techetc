@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ch-style.css">
+    <title>Robozigger</title>
+</head>
+
+<body>
+    <div class="loader">
+        <div class="clogo">
+            <img src="college-logo.0d208ba7.png">
+        </div>
+    </div>
+
+    <header>
+        <h2><a href="../index.html">TECHETC</a></h2>
+    </header>
+    <section class="box">
+        <video src="Robozig.mp4" autoplay muted loop class="bgvid"></video>
+        <h1 class="texteffect">Robozigger</h1>
+        <!-- <h3>Will be Held on (Date) at (time)</h3> -->
+    </section>
+
+    <section class="home1">
+        <div class="home1-txt">
+            <h2 class="about">About Robozigger</h2>
+            <p>A manually controlled robot (which agrees with the given specifications), prepared by the group must complete the track within a stipulated time.</p>
+            <h3>Event Details:</h3>
+            <p>Dimension: 30cm X 30cm X 30cm. <br> Motor: maximum 18V. <br> Maximum rpm- 600 rpm.<br> A maximum of 4 motors can be used.
+                <br> Usage of Lego kits, IC engines, and electronic circuits is strictly prohibited.<br> The robot must be manually controlled.<br>Wireless controller is prohibited. <br><br> Verification of BOT will be done after the registration on the
+                following day.
+            </p>
+            <br>
+            <h3>Rules:</h3>
+            <p>1. In the group stage, a maximum time limit for completing the track will be given, and the time limit will be disclosed on the event day. Teams will get a time bonus for completing the track in the given time.
+                <br><br> 2. A maximum of 2 hand touches from the path and 2 stage skips(in the Prelim round) & 3hand touches from the path and 2 stage skips(in the Final round) will be allowed. If hand touch is taken, the participant must put their BOT
+                at the beginning of the respective stage, and the stopwatch will not be paused during the hand touch.
+                <br><br>3. In the first round, there is no point deduction for a hand touch, but in the final round, 10 points will be deducted for each hand touch.
+                <br><br> 4. Skipping a stage will burr you from getting a time bonus (50) points, & each skip will cost (-10) points
+                <br><br>5. The final score will be calculated by combining the points and the time.
+                <br><br>6. The track consists of inclined plane, sand, rocks, sharp nails, hanging bridge, plane horizontal surface and slippery surfaces.
+                <br><br> 7. Any direct contact of the robot with a cup will award (-5).
+                <br><br>8. Detailed point division will be informed on the event day.
+                <br><br> 9. The organizing committee will not be responsible for any damage to the BOT.
+
+            </p>
+            <br>
+            <h3>Team Details:</h3>
+            <p>Only team participation is allowed. Each team must contain 2 to 4 members. </p>
+            <br>
+            <h3>Eligibility:</h3>
+            <p>All Participants should have proper College ID card on them, and should be able to produce the same in original when asked for verification, failing which they will not be allowed to participate. Each participant should be a student pursuing
+                some field of study in college/university.</p>
+            <br>
+            <h3>Registration Fees:</h3>
+            <p>The one-time registration fee for each candidate is Rs.100/- . <br></p>
+            <br>
+            <h3>Co-ordinators:</h3>
+            <p>Sandip Basu (+91 9477415588)
+            </p>
+            <br>
+        </div>
+    </section>
+
+    <script>
+        window.addEventListener("load", () => {
+            const loader = document.querySelector(".loader");
+
+            loader.classList.add("loader-hidden");
+            loader.addEventListener("transitionend", () => {
+                document.body.removeChild("loader");
+            })
+        })
+    </script>
+
+</body>
+
+</html>

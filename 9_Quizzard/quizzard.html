@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../9_quizzard/quizzard-style.css">
+    <title>Quizzard</title>
+</head>
+<body>
+    <div class="loader">
+        
+        <div class="clogo">
+            <img src="../9_quizzard/college-logo.0d208ba7.png">
+        </div>
+    </div>
+    
+    <header>
+        <h2><a href="../index.html">TECHETC</a></h2>
+    </header>
+    <section class="box">
+        <video src="../9_quizzard/quizzard.mp4" autoplay muted loop class="bgvid"></video>
+        <h1 class="texteffect">Quizzard</h1>
+        <!-- <h3>Will be Held on (Date) at (time)</h3> -->
+    </section>
+
+    <section class="home1">
+        <div class="home1-txt">
+            <h2 class="about">About Quizzard</h2>
+            <p>A quiz is a form of game or mind sport in which players attempt to answer questions correctly on one or several specific topics. Quizzes can be used as a brief assessment in education and similar fields to measure growth in knowledge, abilities, or skills.</p>
+            <br>
+            <h3>Rules:</h3>
+            <p> 1.  The competition carries prizes and certificates for 1st, 2nd & 3rd place holders only.<br>
+                2.	Each round has its own special rules which will be announced on the spot.<br>
+                3.	If more than eight teams register, all of them need to appear for a written screening test, which includes Multiple Choice Questions.<br>
+                4.	Best eight qualifying teams (in terms of marks) will take part in the final quiz contest.<br>
+                5.	In case of a conflict regarding a question, decision of the jury panel will be final.<br>
+                6.	Any type of false move/ adopting unfair means by any member or members of any team will lead to disqualification of the whole team immediately.<br>
+                7.	Participants will not be allowed to carry any electronic gadgets during the quiz contest.<br>
+                8.	In case of tie between two or more teams, further provision of tie breaker will be proclaimed for next round.<br>
+                <strong>Details of Round:-</strong><br>
+                <strong>Round 1: </strong>Current Affairs & G.K <br>
+                <strong>Round 2: </strong>Double Trouble (Basic Engineering) <br>
+                <strong>Final Round: </strong> <br>
+
+                    i.    Audio & Visual Round : (Movie, Audio, Puzzle, Sports, Personality, Logical Reasoning). <br>
+                    ii.   Guess/ Clue Round. <br>
+                    iii.  Rapid Fire Round. <br>
+
+                <strong>(** In case of unavoidable circumstances, rules may be changed.)</strong>
+            </p>
+            <br>
+            <h3>Team Details:</h3>
+            <p>Participants should form a group of two students only. </p>
+            <br>
+            <h3>Eligibility:</h3>
+            <p>All Participants should have proper College ID card on them, and should be able to produce the same in original when asked for verification, failing which they will not be allowed to participate. Each participant should be a student pursuing some field of study in college/university.</p>
+            <br>
+            <h3>Registration Fees:</h3>
+            <p>The one-time registration fee for each candidate is Rs.100/- .</p>
+            <br>
+            <h3>Co-ordinators:</h3>
+            <p>Prof Manab Kumar Saha (+91 9433565643)
+            </p>
+            <br>
+        </div>
+    </section>
+
+    <script>
+        window.addEventListener("load", () => {
+            const loader = document.querySelector(".loader");
+
+            loader.classList.add("loader-hidden");
+            loader.addEventListener("transitionend", () => {
+            document.body.removeChild("loader");
+            })
+        })
+    </script>
+    
+</body>
+</html>
